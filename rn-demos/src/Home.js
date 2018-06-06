@@ -12,7 +12,10 @@ import {
   ActivityIndicator,
   StatusBar
 } from 'react-native';
-import {List, SearchBar} from 'antd-mobile';
+import {
+  List,
+  SearchBar
+} from 'antd-mobile-rn';
 import {Font} from 'expo';
 import demoList from './demoList';
 
@@ -100,7 +103,7 @@ const styles = StyleSheet.create({
   logoText: {
     alignSelf: 'center',
     fontSize: 24,
-    marginTop: 24,
+    marginTop: 15,
     color: '#28B5F5'
   },
   logoTextSub: {
@@ -110,7 +113,7 @@ const styles = StyleSheet.create({
     color: '#626262'
   },
   list: {
-    marginTop: 32,
+    marginTop: 20,
     marginBottom: 0
   },
   footer: {

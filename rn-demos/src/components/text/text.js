@@ -1,6 +1,9 @@
 import React from 'react';
 import {View, Text, Alert} from 'react-native';
-import {WhiteSpace, WingBlank} from 'antd-mobile';
+import {
+  WhiteSpace,
+  WingBlank
+} from 'antd-mobile-rn';
 
 class TextExample extends React.Component {
   render() {

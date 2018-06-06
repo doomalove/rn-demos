@@ -1,6 +1,9 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
-import { WhiteSpace, WingBlank } from 'antd-mobile';
+import {
+  WhiteSpace,
+  WingBlank
+} from 'antd-mobile-rn';
 
 class ImageExample extends React.Component {
   render(){
